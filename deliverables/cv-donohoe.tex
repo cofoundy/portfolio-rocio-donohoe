@@ -1,0 +1,139 @@
+% Harvard-Format Professional CV — Rocio Mendoza Donohoe
+% Compile with: xelatex cv-donohoe.tex
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts — always available) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors (subtle, Harvard-appropriate) ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting (Harvard style: centered, bold, with rules) ---
+\titleformat{\section}
+  {\normalsize\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.3em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.3em}]
+\titlespacing{\section}{0pt}{0.5em}{0.2em}
+
+% --- List Formatting (tight bullets) ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\Large\bfseries Rocio Mendoza Donohoe, PMP\textsuperscript{\textregistered}} \\[3pt]
+  \faIcon{map-marker-alt}\enspace Darien, CT, USA
+  \quad\faIcon{envelope}\enspace \href{mailto:rociodonohoe@icloud.com}{rociodonohoe@icloud.com}
+  \quad\faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/rocio-mendoza/}{linkedin.com/in/rocio-mendoza}
+\end{center}
+
+\vspace{-0.4em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.6em}
+
+% ============================================
+% EXPERIENCE
+% ============================================
+\section{Experience}
+
+\entry{IBTCI --- GH-TAMS (USAID)}{Washington, D.C. (Remote)}{Project Assistant}{Jun 2024 -- Mar 2025}
+\begin{itemize}
+  \item Coordinated multi-million-dollar USAID Global Health program spanning 20+ countries, managing consultant recruitment, onboarding, and full contract lifecycle for 30+ technical consultants
+  \item Drafted Scopes of Work and cost estimates ensuring 100\% compliance with USAID regulations; administered 50+ travel authorizations via Concur
+  \item Maintained evidence-based tracking systems for project deliverables, improving reporting turnaround by 25\%
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Gleeds --- KOULU Consortium}{Lima, Peru}{Project Administrator}{Jan 2022 -- May 2023}
+\begin{itemize}
+  \item Established PMO processes for 8-company UK/Finland consortium delivering Peru's school infrastructure program (\$10M+ budget)
+  \item Processed immigration, payroll, and onboarding for 100+ international staff; coordinated site visits and security at 15+ construction sites
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Arup}{Lima, Peru}{Project Administrator}{Dec 2020 -- Apr 2021}
+\begin{itemize}
+  \item Served as liaison between Lima and London offices; coordinated with ANIN (National Infrastructure Authority) on deliverables
+  \item Organized site visits and virtual leadership events across 3 time zones for 40+ participants
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Canadian Commercial Corporation}{Lima, Peru}{Senior Business Development Assistant}{2016 -- 2020}
+\begin{itemize}
+  \item Supported G2G business development across 11 countries, conducting market research for infrastructure and defense opportunities
+  \item Cultivated stakeholder relationships across the Americas, facilitating 30+ high-level meetings annually; prepared contracts and NDAs for deals valued at \$5M+
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Embassy of Canada in Peru}{Lima, Peru}{Assistant to the Ambassador}{2012 -- 2016}
+\begin{itemize}
+  \item Managed the Ambassador's agenda and diplomatic engagements with 50+ foreign missions; led protocol for 20+ ministerial visits
+  \item Organized annual Canada Day event for 400+ attendees including heads of state, ambassadors, and ministers
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Embassy of Canada in Peru}{Lima, Peru}{Regional Coordinator --- Andean Unit (AUDG)}{2010 -- 2012}
+\begin{itemize}
+  \item Coordinated travel, events, and logistics for Andean Unit covering 5 countries; managed consultant recruitment and \$500K+ annual budget
+\end{itemize}
+\vspace{0.2em}
+
+% ============================================
+% EDUCATION
+% ============================================
+\section{Education}
+
+\entry{Project Management Institute (PMI)}{}{Project Management Professional (PMP\textsuperscript{\textregistered})}{2024}
+\vspace{0.15em}
+\entry{USAID University}{}{USAID Rules \& Regulations Certification}{2024}
+\vspace{0.15em}
+\entry{PMI}{}{Risk Management Professional (PMI-RMP) Course}{2023}
+\vspace{0.15em}
+\entry{Forum for International Trade Training (FITT)}{Canada}{International Trade Diploma}{2021}
+\vspace{0.15em}
+\entry{Government of Canada}{Ottawa, Canada}{Assistant Program for Ambassadors}{2014}
+\vspace{0.15em}
+\entry{UNIF\'{E} --- Universidad Femenina del Sagrado Coraz\'{o}n}{Lima, Peru}{Bachelor's in Translation \& Interpretation --- Top 5\%}{2002}
+\vspace{0.2em}
+
+% ============================================
+% SKILLS & ADDITIONAL
+% ============================================
+\section{Skills \& Additional}
+
+\begin{tabularx}{\textwidth}{@{}p{1.9cm} X@{}}
+\textbf{Core:} & Project Management (PMP\textsuperscript{\textregistered}), Risk Management, Stakeholder Relations, Budget Management, USAID Regulations \\[1pt]
+\textbf{Functional:} & Contract Administration, Vendor Procurement, International Trade, Event Coordination, HR \& Global Mobility \\[1pt]
+\textbf{Tools:} & Concur, SAP, Microsoft Office Suite \\[1pt]
+\textbf{Languages:} & English (Fluent), Spanish (Native) \\
+\end{tabularx}
+
+\end{document}

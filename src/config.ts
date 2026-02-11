@@ -14,7 +14,7 @@ export const siteConfig = {
   ],
   social: {
     email: "rociodonohoe@icloud.com",
-    linkedin: "https://www.linkedin.com/in/rocio-mendoza/",
+    // linkedin: "https://www.linkedin.com/in/rocio-mendoza/", // TODO: client says URL doesn't work — waiting for correct URL
   },
   aboutMe:
     "Multilingual and PMP\u00ae-certified Project and Administrative Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",

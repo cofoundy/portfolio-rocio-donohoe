@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Rocio Donohoe, PMP\u00ae",
-  title: "International Project & Business Management Professional",
+  title: "International Project Professional",
   description:
-    "Portfolio of Rocio Donohoe \u2014 PMP\u00ae-certified Project Professional with 15+ years of experience across USAID, diplomatic, and international engineering programs.",
+    "Portfolio of Rocio Donohoe — PMP®-certified Project Professional with 15+ years of experience across USAID, diplomatic, and international engineering programs.",
   accentColor: "#1e40af",
   location: "Connecticut, USA",
   tagline:
@@ -17,17 +17,14 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/rocio-donohoe/",
   },
   aboutMe:
-    "Multilingual and PMP\u00ae-certified Project and Business Management Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",
+    "Multilingual and PMP®-certified Project Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",
   skills: [
     "Project Management (PMP)",
     "USAID Regulations",
     "Stakeholder Relations",
     "Budget Management",
+    "Project Lifecycle Management",
     "Contract & Compliance Management",
-    "Analytical & Problem-Solving",
-    "Cross-Functional Coordination",
-    "Confidentiality & Discretion",
-    "Adaptability",
     "International Relations",
     "Concur & SAP",
     "Risk Management",
@@ -43,8 +40,8 @@ export const siteConfig = {
     {
       name: "KOULU Consortium \u2014 Peru Schools Infrastructure",
       description:
-        "PMO operations for an 8-company international consortium (UK/Finland) delivering Peru\u2019s school infrastructure program. Managed immigration, HR, logistics, payroll, and onboarding for 100+ staff across multiple countries.",
-      skills: ["PMO", "Event Management", "International HR"],
+        "PMO operations for an 8-company international consortium (UK/Finland) delivering Peru's school infrastructure program. Managed immigration, HR, logistics, payroll, and coordination for 100+ staff across multiple countries.",
+      skills: ["PMO", "International HR", "Logistics"],
     },
     {
       name: "Canada Day Diplomatic Event",
@@ -67,7 +64,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Gleeds - Infrastructure Consultancy",
+      company: "Gleeds",
       title: "Project Administrator",
       dateRange: "Jan 2022 \u2013 May 2023",
       bullets: [

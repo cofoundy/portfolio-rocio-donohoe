@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Rocio Donohoe, PMP\u00ae",
-  title: "International Project & Administrative Professional",
+  title: "International Project & Business Management Professional",
   description:
     "Portfolio of Rocio Donohoe \u2014 PMP\u00ae-certified Project Professional with 15+ years of experience across USAID, diplomatic, and international engineering programs.",
   accentColor: "#1e40af",
-  location: "Darien, CT",
+  location: "Connecticut, USA",
   tagline:
     "Turning complex, multi-stakeholder programs into measurable outcomes \u2014 across borders, budgets, and cultures.",
   stats: [
@@ -17,7 +17,7 @@ export const siteConfig = {
     // linkedin: "https://www.linkedin.com/in/rocio-mendoza/", // TODO: client says URL doesn't work — waiting for correct URL
   },
   aboutMe:
-    "Multilingual and PMP\u00ae-certified Project and Administrative Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",
+    "Multilingual and PMP\u00ae-certified Project and Business Management Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",
   skills: [
     "Project Management (PMP)",
     "USAID Regulations",

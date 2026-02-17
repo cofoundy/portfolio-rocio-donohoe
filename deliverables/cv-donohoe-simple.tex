@@ -1,5 +1,5 @@
-% Harvard-Format Professional CV — Rocio Mendoza Donohoe
-% Compile with: xelatex cv-donohoe.tex
+% Harvard-Format Professional CV — Rocio Donohoe
+% Compile with: xelatex cv-donohoe-simple.tex
 
 \documentclass[10pt,letterpaper]{article}
 
@@ -7,7 +7,6 @@
 \usepackage{fontspec}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{enumitem}
-\usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{tabularx}
 
@@ -22,14 +21,6 @@
 % --- Hyperlinks ---
 \hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
 
-% --- Section Formatting (Harvard style: centered, bold, with rules) ---
-\titleformat{\section}
-  {\normalsize\bfseries\centering}
-  {}
-  {0em}
-  {\vspace{-0.3em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.3em}]
-\titlespacing{\section}{0pt}{0.5em}{0.2em}
-
 % --- List Formatting (tight bullets) ---
 \setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt, parsep=0pt}
 
@@ -40,6 +31,12 @@
 \newcommand{\entry}[4]{%
   \noindent\textbf{#1} \hfill #2 \par\nopagebreak
   \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\newcommand{\sectionheading}[1]{%
+  \vspace{0.5em}
+  \noindent\hrulefill\quad{\normalsize\bfseries #1}\quad\hrulefill
+  \vspace{0.2em}
 }
 
 \begin{document}
@@ -61,7 +58,7 @@
 % ============================================
 % EXPERIENCE
 % ============================================
-\section{Experience}
+\sectionheading{Experience}
 
 \entry{IBTCI --- GH-TAMS (USAID)}{Washington, D.C., USA}{Project Assistant}{Jun 2024 -- Mar 2025}
 \begin{itemize}
@@ -108,7 +105,7 @@
 % ============================================
 % EDUCATION
 % ============================================
-\section{Education}
+\sectionheading{Education}
 
 \entry{Project Management Institute (PMI)}{USA, 2024}{Project Management Professional (PMP\textsuperscript{\textregistered})}{}
 \vspace{0.15em}
@@ -124,7 +121,7 @@
 % ============================================
 % SKILLS & ADDITIONAL
 % ============================================
-\section{Skills \& Additional}
+\sectionheading{Skills \& Additional}
 
 \begin{tabularx}{\textwidth}{@{}p{1.9cm} X@{}}
 \textbf{Core:} & Project Lifecycle Management, Stakeholder Relations, Contract \& Compliance Management, Budget Management \\[1pt]

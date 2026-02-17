@@ -14,7 +14,7 @@ export const siteConfig = {
   ],
   social: {
     email: "rociodonohoe@icloud.com",
-    // linkedin: "https://www.linkedin.com/in/rocio-mendoza/", // TODO: client says URL doesn't work — waiting for correct URL
+    linkedin: "https://www.linkedin.com/in/rocio-donohoe/",
   },
   aboutMe:
     "Multilingual and PMP\u00ae-certified Project and Business Management Professional with over 15 years of experience coordinating complex, multi-stakeholder projects across government, corporate, and international organizations. Skilled in managing project lifecycles from proposal development to close-out, with proven expertise in scheduling, invoicing, resource planning, and stakeholder communications. I excel in supporting senior project managers, enhancing operational efficiency, and ensuring project success in fast-paced environments. My experience spans USAID programs, diplomatic missions, and international engineering consortiums across the Americas.",
@@ -23,14 +23,13 @@ export const siteConfig = {
     "USAID Regulations",
     "Stakeholder Relations",
     "Budget Management",
-    "Event Coordination",
-    "Vendor Procurement",
-    "Cross-Team Collaboration",
+    "Contract & Compliance Management",
+    "Analytical & Problem-Solving",
+    "Cross-Functional Coordination",
+    "Confidentiality & Discretion",
+    "Adaptability",
     "International Relations",
     "Concur & SAP",
-    "Payroll Processing",
-    "Global HR & Mobility",
-    "Contract Administration",
     "Risk Management",
     "International Trade",
   ],
@@ -44,7 +43,7 @@ export const siteConfig = {
     {
       name: "KOULU Consortium \u2014 Peru Schools Infrastructure",
       description:
-        "PMO operations for an 8-company international consortium (UK/Finland) delivering Peru\u2019s school infrastructure program. Managed immigration, HR, logistics, payroll, and event coordination for 100+ staff across multiple countries.",
+        "PMO operations for an 8-company international consortium (UK/Finland) delivering Peru\u2019s school infrastructure program. Managed immigration, HR, logistics, payroll, and onboarding for 100+ staff across multiple countries.",
       skills: ["PMO", "Event Management", "International HR"],
     },
     {
@@ -68,7 +67,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Gleeds \u2014 KOULU Consortium",
+      company: "Gleeds - Infrastructure Consultancy",
       title: "Project Administrator",
       dateRange: "Jan 2022 \u2013 May 2023",
       bullets: [
@@ -79,7 +78,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Arup",
+      company: "Arup - Engineering Consultancy",
       title: "Project Administrator",
       dateRange: "Dec 2020 \u2013 Apr 2021",
       bullets: [
@@ -129,15 +128,9 @@ export const siteConfig = {
       achievements: [],
     },
     {
-      school: "USAID University",
+      school: "Humentum, USA",
       degree: "USAID Rules & Regulations Certification",
       dateRange: "2024",
-      achievements: [],
-    },
-    {
-      school: "PMI",
-      degree: "Risk Management PMI-RMP Course",
-      dateRange: "2023",
       achievements: [],
     },
     {
